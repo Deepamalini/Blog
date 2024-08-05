@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourist Places Log</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #111111;
+        }
+        header {
+            background-color: #3a815a;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #236d42;
+            padding: 0.5rem 0;
+        }
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            font-weight: bold;
+        }
+        .nav a:hover {
+            background-color: #153820;
+            border-radius: 4px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .section {
+            padding: 2rem 0;
+        }
+        .card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+            margin: 1rem;
+            overflow: hidden;
+            transition: transform 0.2s;
+            cursor: pointer;
+            width: 300px;
+            text-decoration: none;
+            color: inherit;
+        }
+        .card:hover {
+            transform: scale(1.02);
+        }
+        .card img {
+            width: 90%;
+            -o-object-fit: contain;
+        }
+        .card-content {
+            padding: 1rem;
+        }
+        .card-content h2 {
+            margin-top: 0;
+            color: #ff5722;
+        }
+        .card-content p {
+            font-size: 1rem;
+            line-height: 1.5;
+        }
+        footer {
+            background-color: #357244;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Tourist Places Blog</h1>
+        <nav class="nav">
+            <a href="#home">Home</a>
+            <a href="#paris">Paris</a>
+            <a href="#newyork">New York City</a>
+            <a href="#tokyo">Tokyo</a>
+            <a href="#sydney">Sydney</a>
+            <a href="#rome">Rome</a>
+        </nav>
+    </header>
+    
+    <div class="container">
+        <div id="home" class="section">
+            <h2>Welcome to the Tourist Places Blog</h2>
+            <p>Explore some of the most iconic tourist destinations around the world. Click on each section to learn more about these amazing places.</p>
+        </div>
+
+        <div id="paris" class="section">
+            <a class="card" href="paris.html"> 
+                <img src="images/paris.png" alt="Paris">
+                <div class="card-content">
+                    <h2>Paris</h2>
+                    <p>The capital city of France, known for its art, fashion, and culture. Key attractions include the Eiffel Tower, Louvre Museum, and Notre-Dame Cathedral. Paris is also renowned for its charming streets, cafes, and romantic ambiance.</p>
+                </div>
+            </a>
+        </div>
+
+        <div id="newyork" class="section">
+            <a class="card" href="newyork.html"> 
+                <img src="images/newyork.jpg" alt="New York City">
+                <div class="card-content">
+                    <h2>New York City</h2>
+                    <p>The largest city in the USA, known for its skyscrapers and cultural landmarks. Major highlights include Times Square, Central Park, and the Statue of Liberty. NYC offers diverse neighborhoods, Broadway shows, and world-class museums.</p>
+                </div>
+            </a>
+        </div>
+
+        <div id="tokyo" class="section">
+            <a class="card" href="tokyo.html"> 
+                <img src="images/tokyo.jpg" alt="Tokyo">
+                <div class="card-content">
+                    <h2>Tokyo</h2>
+                    <p>The bustling capital of Japan, known for its modernity and historical sites. Tokyo features impressive skyscrapers, ancient temples, and vibrant districts like Shibuya and Akihabara. The city is a blend of traditional culture and cutting-edge technology.</p>
+                </div>
+            </a>
+        </div>
+
+        <div id="sydney" class="section">
+            <a class="card" href="sydney.html"> 
+                <img src="images/sydney.jpg" alt="Sydney">
+                <div class="card-content">
+                    <h2>Sydney</h2>
+                    <p>Known for its stunning harbor and iconic Sydney Opera House. The city's landmarks include the Sydney Harbour Bridge and Bondi Beach. Sydney offers a vibrant arts scene, beautiful parks, and diverse dining options.</p>
+                </div>
+            </a>
+        </div>
+
+        <div id="rome" class="section">
+            <a class="card" href="rome.html"> 
+                <img src="images/rome.jpg" alt="Rome">
+                <div class="card-content">
+                    <h2>Rome</h2>
+                    <p>The capital of Italy, famous for its ancient history and architecture. Notable sites include the Colosseum, Roman Forum, and Vatican City. Rome is a city of timeless beauty with rich historical and cultural heritage.</p>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <footer>
+    </footer>
+
+    <script>
+  
+    </script>
+</body>
+</html>
